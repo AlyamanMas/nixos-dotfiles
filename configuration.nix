@@ -376,7 +376,6 @@
     pkg-config-wrapper
     playerctl
     poppler-utils
-    python3.9-Pygments
     slurp
     starship
     swappy
