@@ -196,7 +196,6 @@
     chromium # Web browsers
     exa
     fd # Rust cli utils
-    xterm
     alacritty # Terminal emulators
     pavucontrol
     htop
@@ -234,7 +233,7 @@
     cabal-install
     haskell-language-server # Everything haskell
     jetbrains.idea-community
-    vscodium-fhs
+    vscode
     # pomotroid make derivation
     # PixivUtil2 make derivation
     evolution
@@ -251,7 +250,6 @@
     python3
     pipenv # Python + utils
     html-tidy
-    ktlint
     nixfmt
     shellcheck # Code checkers/formatters...
     openjdk
@@ -267,7 +265,6 @@
     bintools-unwrapped
     rnix-lsp
     nethogs
-    kotlin
     haskellPackages.hoogle
     zathura
     zoom-us
@@ -277,7 +274,6 @@
     qutebrowser
     nyxt
     nix-index
-    tridactyl-native
     qalculate-gtk
     libqalculate
     translate-shell
@@ -333,7 +329,6 @@
     nixos-option
     yaru-theme
     libsecret
-    spotify
     clipman
     exfatprogs
     gdb
@@ -350,6 +345,51 @@
     wl-clipboard
     xmlformat
     pantheon.elementary-calendar
+    bat
+    clipman
+    clojure
+    deno
+    eww
+    exfatprogs
+    figlet
+    foot
+    fzf
+    gdb
+    gh
+    glib
+    gnome-tweaks
+    gparted
+    gradle
+    grim
+    home-manager
+    home-manager-path
+    ipfs
+    ispell
+    kalendar
+    leiningen
+    libcxx
+    libreoffice
+    libsixel
+    neovide-unstable
+    onlyoffice-desktopeditors
+    parted
+    pkg-config-wrapper
+    playerctl
+    poppler-utils
+    python3.9-Pygments
+    slurp
+    starship
+    swappy
+    swi-prolog
+    texlab
+    tmatrix
+    verilator
+    w3m
+    wl-clipboard
+    xev
+    xkbcomp
+    xmlformat
+    yafetch-unstable
   ]) ++ (with pkgs.python39Packages; [ # Include python39Packages
     isort
     nose
